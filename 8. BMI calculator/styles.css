@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poetsen+One&display=swap");
+body{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(12, 148, 245) , rgb(140, 198, 249));
+    justify-content: center;
+    display: flex;
+    padding: 100px;
+}
+
+span{
+    color: red;
+}
+.wrapper{
+    position: absolute;
+    padding: 20px;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: rgb(29, 50, 73) ;
+}
+input{
+    border: none;
+    outline: none;
+    padding: 7px;
+    margin: 10px;
+    border-radius: 25px;
+}
+button{
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: black;
+    display: block;
+    margin-top: 10%;
+    cursor: pointer;
+}
+#h1{
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: Poetsen One;
+    text-decoration: underline 2px;
+}
